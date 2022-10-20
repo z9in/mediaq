@@ -1,0 +1,32 @@
+/* desktop.css */
+body {
+    background-color: lightpink;
+}
+header {
+    background-color: black;
+    color: white;
+    /* 최대크기 */
+    max-width: 1400px;
+    margin: 0 auto;
+}
+header nav{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+header nav a {
+    color: white;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+#main-title {
+    background-color: #999;
+    max-width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-image: url(../images/title-bg.jpg);
+    color: white;
+    text-shadow: 1px 1px 2px #000;
+}
